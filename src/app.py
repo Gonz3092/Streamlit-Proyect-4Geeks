@@ -16,7 +16,7 @@ presion_sangre = st.number_input('Presion Sanginea', min_value=0.0, step=1.0, fo
 nivel_insulina = st.number_input('Insulina en sangre', min_value=0.0, step=1.0, format="%.1f")
 bmi = st.number_input('Indice de masa Corporal', min_value=0.0, step=1.0, format="%.1f")
 dpf = st.number_input('Pedegre de Diabetes', min_value=0.0, step=1.0, format="%.1f")
-edad = st.number_input('Edad', min_value=0.0, step=1)
+edad = st.number_input('Edad', min_value=0, step=1)
 
 
 # Botón para predecir
