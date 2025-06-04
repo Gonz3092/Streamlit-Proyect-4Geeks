@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Cargar modelo
-with open('tree_classifier_crit-entro_maxdepth-5_minleaf-4_minsplit2_42.sav', 'rb') as f:
+with open('models/tree_classifier_crit-entro_maxdepth-5_minleaf-4_minsplit2_42.sav', 'rb') as f:
     model = pickle.load(f)
 
 # Título de la app
